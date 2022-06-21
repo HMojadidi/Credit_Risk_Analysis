@@ -9,8 +9,7 @@ Credit risk is an inherently unbalanced classification problem, as good loans ea
 Using Python, I used several machine learning models to predict credit risk:
 
 #### For Oversampling:
-RandomOverSampler
-SMOTE
+RandomOverSampler and SMOTE
 
 #### For Undersampling:
 ClusterCentroids
@@ -19,8 +18,7 @@ ClusterCentroids
 SMOTEENN
 
 #### Compared two maching learning models that reduce bias:
-BalancedRandomForestClassifier
-EasyEnsembleClassifier
+BalancedRandomForestClassifier and EasyEnsembleClassifier
 
 The models were run and then evaluated for performance and accuracy at predicting credit risk.
 
