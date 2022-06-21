@@ -89,3 +89,9 @@ Here, the balanced accuracy score is high to about 93%.
 The high_risk precision is still low at 7% only with 91% sensitivity which makes a F1 of only 14%.
 Due to a lower number of false positives, the low_risk sensitivity is now 94% with 100% presicion.
 
+# Summary:
+
+All the models used to perform the credit risk analysis show weak precision in determining if a credit risk is high.
+The Ensemble model brought a lot more improvment, especially on the sensitivity of the high risk credits.
+The EasyEnsembleClassifier model shows a sensitivity of 91% so it detects almost all high risk credit. On another hand, with a low precision, a lot of low risk credits are still falsely detected as high risk which would penalize the lending institution's credit strategy and infer on its revenue by missing those business opportunities.
+For those reasons I would not recommend the bank to use any of these models to predict credit risk.
